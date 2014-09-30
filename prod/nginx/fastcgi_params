@@ -1,9 +1,4 @@
-fastcgi_param   CATALYST_ORGANIZATION   'oscp';
-fastcgi_param		TRUEVAULT_VAULT_ID			'd9fe34aa-f61a-4904-a2c0-53488bc44364';
-fastcgi_param		TRUEVAULT_API_KEY				'8728ffbd-26c0-434c-a5af-3be92f98abe1';
-fastcgi_param		TRUEVAULT_CUSTOMER_SCHEMA_ID	'd4b3f3e8-f34f-49d7-9a3c-65bf0d2b4cd4';
-fastcgi_param		TRUEVAULT_ACCOUNT_ID		'7fc4b801-80a3-46f3-855b-1d6153f6ffe1';
-
+fastcgi_param   CATALYST_DOMAIN				  'oscp.eighty.co';
 fastcgi_param   QUERY_STRING            $query_string;
 fastcgi_param   REQUEST_METHOD          $request_method;
 fastcgi_param   CONTENT_TYPE            $content_type;
